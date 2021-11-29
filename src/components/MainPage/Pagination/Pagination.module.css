@@ -1,0 +1,15 @@
+.paginationBar {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .paginationBar {
+    flex-direction: column;
+  }
+  .paginationBar > li > a {
+    text-align: center;
+  }
+}

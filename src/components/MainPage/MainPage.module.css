@@ -1,0 +1,26 @@
+.margin {
+  margin-top: 12px;
+}
+.boldItalic {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 992px) {
+  .margin {
+    margin-top: 0px;
+  }
+}
+
+.center {
+  max-width: 392px !important;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sortButton {
+  margin: 0 auto 24px auto;
+  max-width: 120px;
+  width: 100%;
+  display: block !important;
+}
